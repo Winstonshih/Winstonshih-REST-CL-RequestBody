@@ -54,7 +54,7 @@ app.post("/user", ctx -> {
     //now we can use the 'user' response body as a Java object in whatever way we see fit.
         
     //eg: return the user as the response body, but also have Javalin convert it to JSON  
-    ctx.json(user);    
+        
 });
 ```
 
